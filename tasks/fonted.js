@@ -30,7 +30,7 @@ module.exports = function (grunt) {
     child.stderr.pipe(process.stderr);
   }
 
-  grunt.registerMultiTask('fontcustom', 'Compile SVG and EPS to Fonts (and CSS)', function () {
+  grunt.registerMultiTask('fonted', 'Compile SVG and EPS to Fonts (and CSS)', function () {
     var args = ['compile'];
     var helpers = require('grunt-lib-contrib').init(grunt);
     var options = this.options();
