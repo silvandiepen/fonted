@@ -1,51 +1,28 @@
 {
   "name": "fonted",
-  "description": "Compile TTF and SVG (fontsets) to (web)Fonts",
   "version": "0.1.0",
-  "homepage": "https://github.com/silvandiepen/fonted",
-  "author": "Sil van Diepen (http://silvandiepen.com)",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/silvandiepen/fonted.git"
-  },
-  "bugs": {
-    "url": "https://github.com/silvandiepen/fonted/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-    }
-  ],
-  "main": "Gruntfile.js",
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {
-    "grunt-lib-contrib": "~0.5.2",
-    "tmp": "0.0.16"
-  },
-  "devDependencies": {
-    "grunt-contrib-clean": "0.4.0rc6",
-    "grunt-contrib-jshint": "0.1.1rc6",
-    "grunt-contrib-nodeunit": "0.1.2rc6",
-    "grunt-contrib-internal": "*",
-    "grunt": "0.4.0rc7"
-  },
-  "keywords": [
-    "gruntplugin",
-    "fontcutsom",
-    "eot",
-    "ttf",
-    "svg",
-    "woff",
-    "font",
-    "webfont"
-  ],
+  "description": "Create webfonts from svg and ttf files",
+  "main": "index.js",
   "directories": {
     "doc": "docs",
     "test": "test"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvandiepen/fonted.git"
+  },
+  "keywords": [
+    "css",
+    "webfont",
+    "svg"
+  ],
+  "author": "Sil van Diepen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silvandiepen/fonted/issues"
+  },
+  "homepage": "https://github.com/silvandiepen/fonted#readme"
 }
