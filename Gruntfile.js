@@ -1,5 +1,5 @@
 /*
- * grunt-fonted
+ * fonted
  * https://github.com/silvandiepen/fonted
  *
  * Copyright (c) 2015 Sil van Diepen
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
     // Before generating any new files, remove any previously-created files.
     clean: {
       test: [
-        'test/fontcustom',
+        'test/fonted',
         'test/tmp',
         'test/tmp2',
         'test/tmp3'
