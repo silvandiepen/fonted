@@ -1,0 +1,25 @@
+{
+  "name": "fonted",
+  "version": "0.1.0",
+  "homepage": "https://github.com/silvandiepen/fonted",
+  "authors": [
+    "silvandiepen <me@silvandiepen.com>"
+  ],
+  "description": "Generate fonts from ttf and svg sets",
+  "main": "index.js",
+  "keywords": [
+    "font",
+    "generate",
+    "ttf",
+    "svg",
+    "webfont"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

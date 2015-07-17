@@ -1,0 +1,51 @@
+{
+  "name": "grunt-fontcustom",
+  "description": "Compile SVG and EPS to Fonts (and CSS)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MoOx/grunt-fontcustom",
+  "author": {
+    "name": "Maxime Thirouin",
+    "url": "http://moox.fr/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MoOx/grunt-fontcustom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MoOx/grunt-fontcustom/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/MoOx/grunt-fontcustom/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt-lib-contrib": "~0.5.2",
+    "tmp": "0.0.16"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "0.4.0rc6",
+    "grunt-contrib-jshint": "0.1.1rc6",
+    "grunt-contrib-nodeunit": "0.1.2rc6",
+    "grunt-contrib-internal": "*",
+    "grunt": "0.4.0rc7"
+  },
+  "keywords": [
+    "gruntplugin",
+    "fontcutsom",
+    "eot",
+    "ttf",
+    "svg",
+    "woff",
+    "font",
+    "webfont"
+  ]
+}
