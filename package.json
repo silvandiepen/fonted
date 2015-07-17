@@ -1,20 +1,19 @@
 {
   "name": "grunt-fonted",
-  "description": "Compile SVG and EPS to Fonts (and CSS)",
+  "description": "Compile TTF and SVG (fontsets) to (web)Fonts",
   "version": "0.1.0",
-  "homepage": "https://github.com/MoOx/grunt-fontcustom",
-  "author": "Maxime Thirouin (http://moox.fr/)",
+  "homepage": "https://github.com/silvandiepen/fonted",
+  "author": "Sil van Diepen (http://silvandiepen.com)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MoOx/grunt-fontcustom.git"
+    "url": "git://github.com/silvandiepen/fonted.git"
   },
   "bugs": {
-    "url": "https://github.com/MoOx/grunt-fontcustom/issues"
+    "url": "https://github.com/silvandiepen/fonted/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/MoOx/grunt-fontcustom/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -48,6 +47,5 @@
   "directories": {
     "doc": "docs",
     "test": "test"
-  },
-  "license": "ISC"
+  }
 }

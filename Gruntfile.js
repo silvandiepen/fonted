@@ -1,8 +1,8 @@
 /*
- * grunt-fontcustom
- * https://github.com/MoOx/grunt-fontcustom
+ * grunt-fonted
+ * https://github.com/silvandiepen/fonted
  *
- * Copyright (c) 2013 Maxime Thirouin, contributors
+ * Copyright (c) 2015 Sil van Diepen
  * Licensed under the MIT license.
  */
 
