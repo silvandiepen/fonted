@@ -1,12 +1,9 @@
 {
-  "name": "grunt-fontcustom",
+  "name": "grunt-fonted",
   "description": "Compile SVG and EPS to Fonts (and CSS)",
   "version": "0.1.0",
   "homepage": "https://github.com/MoOx/grunt-fontcustom",
-  "author": {
-    "name": "Maxime Thirouin",
-    "url": "http://moox.fr/"
-  },
+  "author": "Maxime Thirouin (http://moox.fr/)",
   "repository": {
     "type": "git",
     "url": "git://github.com/MoOx/grunt-fontcustom.git"
@@ -47,5 +44,10 @@
     "woff",
     "font",
     "webfont"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "license": "ISC"
 }
