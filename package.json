@@ -1,5 +1,5 @@
 {
-  "name": "grunt-fonted",
+  "name": "fonted",
   "description": "Compile TTF and SVG (fontsets) to (web)Fonts",
   "version": "0.1.0",
   "homepage": "https://github.com/silvandiepen/fonted",
