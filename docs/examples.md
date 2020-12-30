@@ -1,8 +1,8 @@
-# Usage Examples
+## Usage Examples
 
-## Example config
+### Example config
 
-```javascript
+```js
 grunt.initConfig({
   fontcustom: {               // Task
     icons: {                   // Target
